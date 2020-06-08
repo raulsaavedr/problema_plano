@@ -1,5 +1,5 @@
 ## Problema Plano
-[![Version 0.1.7 Badge][version-badge]][changelog] [![MIT License Badge][license-badge]][license]
+[![Version 0.1.7 Badge][version-badge]][changelog] [![MIT License Badge][license-badge]][license] [![](https://img.shields.io/badge/python-3.7+-orange.svg)]
 
 El problema plano es un problema de valores de frontera, se buscar analizar el comportamiento de 
 los potenciales y flujos electricos de una linea o ducto de transmision que esta subdivida por 
