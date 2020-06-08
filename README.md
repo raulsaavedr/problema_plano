@@ -1,5 +1,6 @@
-
+## Problema Plano[![Keep a Changelog v1.1.0 badge][changelog-badge]][changelog] [![Version 1.1.0 Badge][version-badge]][changelog] [![MIT License Badge][license-badge]][license]
 [![Version 0.1.7 Badge][version-badge]][changelog] [![MIT License Badge][license-badge]][license]
+
 El problema plano es un problema de valores de frontera, se buscar analizar el comportamiento de 
 los potenciales y flujos electricos de una linea o ducto de transmision que esta subdivida por 
 multiples regiones de diferentes materiales dielectricos, Se muestra la interaccion entre cada region
@@ -25,6 +26,6 @@ Proximamente se estara publicando unos binarios(paquetes) para Windows (32 & 64 
 [changelog-badge]: https://img.shields.io/badge/changelog-Keep%20a%20Changelog%20v1.1.0-%23E05735
 [license]: ./LICENSE
 [source]: source/
-[version-badge]: https://img.shields.io/badge/version-1.1.0-blue.svg
+[version-badge]: https://img.shields.io/badge/version-0.1.7-blue.svg
 [license-badge]: https://img.shields.io/badge/license-MIT-blue.svg
 
