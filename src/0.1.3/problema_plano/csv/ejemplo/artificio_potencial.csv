@@ -1,0 +1,11 @@
+sum. 1er termino,term. (x-ca/cb-ca),ca,cb,chr_vector_t,tipo_f1,tipo_f2,factor_C_1,factor_C_2
+1,no,0,0,H,sinh,0,C1,0
+1,no,0,0,F,cosh,sinh,C2,C3
+0,no,0,0,G,cosh,sinh,C4,C5
+1,si,2,4,H,cosh,sinh,C6,C7
+1,no,0,0,F,cosh,sinh,C8,C9
+1,no,0,0,I,sinh,0,C10,0
+1,no,0,0,J,sinh,0,C11,0
+1,no,0,0,L,sinh,0,C12,0
+1,no,0,0,B,cosh,sinh,C13,C14
+1,no,0,0,A,sinh,0,C15,0

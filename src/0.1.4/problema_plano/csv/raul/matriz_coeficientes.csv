@@ -1,0 +1,16 @@
+Na1=A*D1,Na2=Cero,Na3=Cero,Na4=k1*M1*D*D3,Na5=-k1*M1*D*D2,Na6=Cero,Na7=Cero,Na8=Cero,Na9=Cero,Na10=Cero,Na11=Cero,Na12=Cero,Na13=Cero,Na14=Cero,Na15=Cero,Na16=Cero
+Nb1=Cero,Nb2=Er*B*D4,Nb3=Cero,Nb4=E0*k2*M2*D*D3,Nb5=-E0*k2*M2*D*D2,Nb6=Cero,Nb7=Cero,Nb8=Cero,Nb9=Cero,Nb10=Cero,Nb11=Cero,Nb12=Cero,Nb13=Cero,Nb14=Cero,Nb15=Cero,Nb16=Cero
+Nc1=Cero,Nc2=Cero,Nc3=Er*C*D5,Nc4=E0*k3*M3*D*D3,Nc5=-E0*k3*M3*D*D2,Nc6=Cero,Nc7=Cero,Nc8=Cero,Nc9=Cero,Nc10=Cero,Nc11=Cero,Nc12=Cero,Nc13=Cero,Nc14=Cero,Nc15=Cero,Nc16=Cero
+Nd1=Cero,Nd2=Cero,Nd3=Cero,Nd4=E0*k4*M4*D*D3,Nd5=E0*k4*M4*D*D2,Nd6=Cero,Nd7=Er*F*D7,Nd8=-Er*F*D6,Nd9=Cero,Nd10=Cero,Nd11=Cero,Nd12=Cero,Nd13=Cero,Nd14=Cero,Nd15=Cero,Nd16=Cero
+Ne1=M1T,Ne2=M2T,Ne3=M3T,Ne4=-k10*Uno,Ne5=k10*Uno,Ne6=Cero,Ne7=Cero,Ne8=Cero,Ne9=Cero,Ne10=Cero,Ne11=Cero,Ne12=Cero,Ne13=Cero,Ne14=Cero,Ne15=Cero,Ne16=Cero
+Nf1=Cero,Nf2=Cero,Nf3=Cero,Nf4=Cero,Nf5=Cero,Nf6=Er*E*D9,Nf7=Cero,Nf8=Cero,Nf9=Cero,Nf10=Cero,Nf11=E0*k6*M6*D11,Nf12=-E0*k6*M6*I*D10,Nf13=Cero,Nf14=Cero,Nf15=Cero,Nf16=Cero
+Ng1=Cero,Ng2=Cero,Ng3=Cero,Ng4=Cero,Ng5=Cero,Ng6=Cero,Ng7=Er*F*D7,Ng8=Er*F*D6,Ng9=Cero,Ng10=Cero,Ng11=E0*k4*M7*I*D11,Ng12=-E0*k4*M7*I*D10,Ng13=Cero,Ng14=Cero,Ng15=Cero,Ng16=Cero
+Nh1=Cero,Nh2=Cero,Nh3=Cero,Nh4=k7*Uno,Nh5=k7*Uno,Nh6=Cero,Nh7=-M4T,Nh8=M4T,Nh9=Cero,Nh10=-M5,Nh11=Cero,Nh12=Cero,Nh13=Cero,Nh14=Cero,Nh15=Cero,Nh16=Cero
+Ni1=Cero,Ni2=Cero,Ni3=Cero,Ni4=Cero,Ni5=Cero,Ni6=M6T,Ni7=M7T,Ni8=-M7T,Ni9=M8T,Ni10=Cero,Ni11=-k11*Uno,Ni12=k11*Uno,Ni13=Cero,Ni14=Cero,Ni15=Cero,Ni16=Cero
+Nj1=Cero,Nj2=Cero,Nj3=Cero,Nj4=E0*k5*M5*D*D3,Nj5=E0*k5*M5*D*D2,Nj6=Cero,Nj7=Cero,Nj8=Cero,Nj9=Cero,Nj10=-Er*G*D8,Nj11=Cero,Nj12=Cero,Nj13=Cero,Nj14=Cero,Nj15=Cero,Nj16=Cero
+Nk1=Cero,Nk2=Cero,Nk3=Cero,Nk4=Cero,Nk5=Cero,Nk6=Cero,Nk7=Cero,Nk8=Cero,Nk9=Er*G*D12,Nk10=Cero,Nk11=E0*k5*M8*I*D11,Nk12=-E0*k5*M8*I*D10,Nk13=Cero,Nk14=Cero,Nk15=Cero,Nk16=Cero
+Nl1=Cero,Nl2=Cero,Nl3=Cero,Nl4=Cero,Nl5=Cero,Nl6=Cero,Nl7=Cero,Nl8=Cero,Nl9=Cero,Nl10=Cero,Nl11=E0*I*D11,Nl12=E0*I*D10,Nl13=Er*k7*M9*J*D14,Nl14=-Er*k7*M9*J*D13,Nl15=Cero,Nl16=Cero
+Nm1=Cero,Nm2=Cero,Nm3=Cero,Nm4=Cero,Nm5=Cero,Nm6=Cero,Nm7=Cero,Nm8=Cero,Nm9=Cero,Nm10=Cero,Nm11=Cero,Nm12=Cero,Nm13=Er*k8*M10*D14,Nm14=Er*k8*M10*D13,Nm15=-E0*K*D15,Nm16=Cero
+Nn1=Cero,Nn2=Cero,Nn3=Cero,Nn4=Cero,Nn5=Cero,Nn6=Cero,Nn7=Cero,Nn8=Cero,Nn9=Cero,Nn10=Cero,Nn11=M9T,Nn12=M9T,Nn13=-k10*Uno,Nn14=k10*Uno,Nn15=Cero,Nn16=Cero
+No1=Cero,No2=Cero,No3=Cero,No4=Cero,No5=Cero,No6=Cero,No7=Cero,No8=Cero,No9=Cero,No10=Cero,No11=Cero,No12=Cero,No13=k10*Uno,No14=k10*Uno,No15=-M10T,No16=-M11T
+Np1=Cero,Np2=Cero,Np3=Cero,Np4=Cero,Np5=Cero,Np6=Cero,Np7=Cero,Np8=Cero,Np9=Cero,Np10=Cero,Np11=Cero,Np12=Cero,Np13=Er*k9*M11*J*D14,Np14=Er*k9*M11*J*D13,Np15=Cero,Np16=-E0*Z*D16

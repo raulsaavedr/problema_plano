@@ -6,7 +6,7 @@ from datetime import timedelta
 import logging
 from config import conf
 # Se cargan las configuraciones del problema plano
-conf.load(problema_plano='Raul Saavedra')
+conf.load(problema_plano='ejemplo')
 logging.basicConfig()
 # Se define el nivel de logging del modulo main
 logger = logging.getLogger(__name__)
@@ -34,7 +34,7 @@ def main():
     # Si faltan archivos por cargar del problema plano actual, carguelos
     fill_csv.run()
     # Se cargan las regiones respectivas
-    regiones = reg.cargar_regiones(n_dimension=10) 
+    regiones = reg.cargar_regiones(n_dimension=100)
     # Carga de dimension a partir de las regiones
     n_dimension = regiones['n_dimension'][0]
     # Se cargan los ejes relativos para poder calcular flujo y potencial

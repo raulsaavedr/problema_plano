@@ -1,0 +1,64 @@
+csv_filled:
+  artificio_potencial: true
+  coeficientes_no_cero_matriz_coeficientes: true
+  constantes_k: true
+  funciones_hiperbolicas: true
+  matrices_cuadradas_acoplamiento: true
+  matrices_diagonales_func_hyper: true
+  matriz_coeficientes: true
+  regiones: true
+  vectores_distorsionadores: true
+  vectores_terminos_dependientes: true
+  vectores_transpuestos: true
+  vectores_valores_dependientes: true
+debugging:
+  constantes_k:
+    log_level: INFO
+    disabled: true
+  distorsionador:
+    log_level: INFO
+    disabled: true
+  eigen:
+    log_level: INFO
+    disabled: true
+  fill_the_csv:
+    log_level: DEBUG
+    disabled: true
+  flujo:
+    log_level: INFO
+    disabled: true
+  hiperbolica:
+    log_level: INFO
+    disabled: true
+  __main__:
+    log_level: INFO
+    disabled: true
+  matrices_acoplamiento:
+    log_level: INFO
+    disabled: true
+  matriz_gauss:
+    log_level: DEBUG
+    disabled: false
+  parser_matriz_gauss:
+    log_level: INFO
+    disabled: true
+  potencial:
+    log_level: INFO
+    disabled: true
+  region:
+    log_level: INFO
+    disabled: true
+  v_transpuestos:
+    log_level: INFO
+    disabled: true
+env:
+  config_file: conf/p_plano_ejemplo.yaml
+  path: ejemplo
+vars:
+  delta: 10
+  n_constantes_k: 0
+  n_diagonales_hiperbolicas: 0
+  n_dimension: 100
+  n_dimension_matriz_gauss: 15
+  n_matrices_acopladoras: 0
+  n_regiones: 10

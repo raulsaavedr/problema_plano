@@ -64,7 +64,7 @@ def prueba_valor_eigen(valores_eigen, vectores_valores_eigen, vectores_valores_e
         ax.plot(N, vectores_valores_eigen_err.loc[chr_eigen], 'b', label='con error')
         ax.legend(loc='lower right')
         filename = 'graficas/' + conf.data['env']['path'] + '/vectores eigen/control ' +\
-                    error_t + " " + chr_eigen + ".svg"
+                    error_t + " " + chr_eigen + ".png"
         canvas = FigureCanvas(fig)
         canvas.print_figure(filename)
         # Salida por consola del proceso que se esta realizando
@@ -105,7 +105,7 @@ def prueba_matrices_diagonal_valores_eigen(valores_eigen, vectores_valores_eigen
         ax.plot(N, vectores_valores_eigen_err_matriz.loc[chr_eigen], 'b', label='con error')
         ax.legend(loc='lower right')
         filename = 'graficas/' + conf.data['env']['path'] + '/matrices diagonales de valores eigen/' +\
-                    'control ' + error_t + " " + chr_eigen + ".svg"
+                    'control ' + error_t + " " + chr_eigen + ".png"
         canvas = FigureCanvas(fig)
         canvas.print_figure(filename)
         print(f"* Matriz diagonal {chr_eigen+'='+valores_eigen.loc[chr_eigen]['calcular_str']}")
@@ -150,7 +150,7 @@ def prueba_matrices_diagonal_funciones_hiperbolicas(funciones_hiperbolicas, vect
         ax.plot(N, vectores_funciones_hiperbolicas_err.loc[nro_diagonal], 'b', label='con error')
         ax.legend(loc='lower right')
         filename = 'graficas/' + conf.data['env']['path'] + '/matrices diagonales de funciones hiperbolicas/' +\
-                   'control ' + error_t + " " + nro_diagonal + ".svg"
+                   'control ' + error_t + " " + nro_diagonal + ".png"
         canvas = FigureCanvas(fig)
         canvas.print_figure(filename)
         print(f"* Matriz diagonal {nro_diagonal+'='+funciones_hiperbolicas.loc[nro_diagonal]['calcular_str']}")
@@ -186,7 +186,7 @@ def prueba_matrices_cuadradas_acoplamiento(integrandos_matrices_acoplamiento, ma
         ax.plot(N, matrices_acoplamiento_sol.loc[M].stack().loc[:n_dimension,:n_dimension], 'b', label='sol. analitica ' + error_t)
         ax.legend(loc='lower right')
         filename = 'graficas/' + conf.data['env']['path'] + '/matrices cuadradas de acoplamiento/' +\
-                   'control ' + error_t + " " + M + ".svg"
+                   'control ' + error_t + " " + M + ".png"
         canvas = FigureCanvas(fig)
         canvas.print_figure(filename)
         print(f"* Matriz acompladora {M + '=' + integrandos_matrices_acoplamiento.loc[M, 'calcular_str']}")
@@ -224,7 +224,7 @@ def prueba_vectores_distorsionadores(integrandos_vectores_distorsionadores, vect
         ax.plot(N, vectores_distorsionadores_sol.loc[Sm][:n_dimension], 'b', label='sol. analitica '+error_t)
         ax.legend(loc='upper right')
         filename = 'graficas/' + conf.data['env']['path'] + '/vectores distorsionadores/' +\
-                   'control ' + error_t + " " + Sm + ".svg"
+                   'control ' + error_t + " " + Sm + ".png"
         canvas = FigureCanvas(fig)
         canvas.print_figure(filename)
         print(f"* Vector distorsionador {Sm + '=' + integrandos_vectores_distorsionadores.loc[Sm, 'calcular_str']}")
@@ -261,7 +261,7 @@ def prueba_potencial(regiones, recursos_potencial, potenciales, potenciales_err,
         ax.plot(N, potenciales.loc[n_potencial], 'k', label='sin error')
         ax.legend(loc='lower right')
         filename = 'graficas/' + conf.data['env']['path'] + '/potenciales/' +\
-                   'control ' + error_t + " " + n_potencial + ".svg"
+                   'control ' + error_t + " " + n_potencial + ".png"
         canvas = FigureCanvas(fig)
         canvas.print_figure(filename)
         # Salida por consola del proceso que se esta realizando
@@ -298,7 +298,7 @@ def prueba_flujo(regiones, recursos_flujo, flujos, flujos_err, dimension_mesh,\
         ax.plot(N, flujos.loc[n_flujo], 'k', label='sin error')
         ax.legend(loc='lower right')
         filename = 'graficas/' + conf.data['env']['path'] + '/flujos/' +\
-                   'control ' + error_t + " " + n_flujo + ".svg"
+                   'control ' + error_t + " " + n_flujo + ".png"
         canvas = FigureCanvas(fig)
         canvas.print_figure(filename)
         # Salida por consola del proceso que se esta realizando
@@ -337,7 +337,7 @@ def control_de_continuidad(regiones, potenciales, mesh_regiones, n_dimension):
         plt.plot(left_bar, [-2,2])
         plt.plot(right_bar, [-2,2])
 
-        filename ='graficas/' + conf.data['env']['path'] + '/continuidad de potencial/'+ f'Reg.{R_inf} a la Reg.{R_sup}.svg'
+        filename ='graficas/' + conf.data['env']['path'] + '/continuidad de potencial/'+ f'Reg.{R_inf} a la Reg.{R_sup}.png'
         canvas = FigureCanvas(fig)
         canvas.print_figure(filename)
         plt.close()
@@ -358,7 +358,7 @@ def graficas_potencial(regiones, potenciales, mesh_regiones, n_dimension):
         ax.plot_surface(x_flat,y_flat,pot,cmap=cm.autumn)
         #ax.view_init(0,-90)
         filename = 'graficas/' + conf.data['env']['path'] + '/potenciales/surf/' +\
-                   'Surf' + " " + n_potencial + ".svg"
+                   'Surf' + " " + n_potencial + ".png"
         canvas = FigureCanvas(fig)
         canvas.print_figure(filename)
         plt.close()
@@ -385,7 +385,7 @@ def grafica_de_potencial_total(regiones, potenciales, mesh_regiones, n_dimension
         ax.plot_surface(x_flat,y_flat,pot,cmap=cm.autumn)
 
     ax.view_init(0,-90)
-    filename ='graficas/' + conf.data['env']['path'] + '/Grafica de Potencial total.svg'
+    filename ='graficas/' + conf.data['env']['path'] + '/Grafica de Potencial total.png'
     canvas = FigureCanvas(fig)
     canvas.print_figure(filename)
     plt.close()
