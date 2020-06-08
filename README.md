@@ -6,14 +6,14 @@ por favor visite la siguiente pagina:
 https://bit.ly/conocimientos_PRF
 # <img src="https://raw.githubusercontent.com/raulsaavedr/problema_plano/master/src/0.1.7/problema_plano/graficas/ejemplo/Problema%20Plano%203D.png" height=640 alt="Grafica Tridimensional ejemplo" />
 
-###Dependencias:
+##Dependencias:
 * Python >= 3.7
 * numpy 
 * numba
 * scipy 
 * pandas
 
-###Autores: 
+##Autores: 
 * Raul Saavedra
 * Daniel Useche
 
