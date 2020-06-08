@@ -1,0 +1,13 @@
+num_de_region,chr_vector_t,chr_eigen,tipo_f,x_desp
+1,O,A,sin,0
+2,P,B,cos,0
+3,Q,C,cos,0
+4,R,D,sin,1
+5,T,E,sin,2
+6,U,F,sin,3
+7,V,G,sin,0
+8,W,H,sin,2
+9,X,I,sin,0
+10,U,F,sin,3
+11,V,G,sin,0
+12,T,E,sin,2
