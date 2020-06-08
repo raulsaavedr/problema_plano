@@ -8,4 +8,7 @@ https://bit.ly/conocimientos_PRF
 El codigo ha sido creado con con python3.7, pandas 0.25.3, numpy 1.16.2, sympy 1.5 y numba.
 Proximamente se estara publicando unos binarios(paquetes) para Windows (32 & 64 bits) y Debian.
 
+Autores: * Raul Saavedra
+	 * Daniel Useche
+
 
