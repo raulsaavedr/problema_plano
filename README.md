@@ -22,8 +22,8 @@ por favor visite la siguiente pagina:
 ## Referencias:
 Para obtener mas informacion acerca del trabajo ya realizado en la materia Proyectos de Radio Frecuencia,
 visite el siguiente enlace:
-###
-*https://bit.ly/conocimientos_PRF
+
+https://bit.ly/conocimientos_PRF
 
 
 Proximamente se estara publicando unos binarios(paquetes) para Windows (32 & 64 bits) y Debian.
