@@ -1,3 +1,4 @@
+# <img src="https://raw.githubusercontent.com/raulsaavedr/problema_plano/master/src/0.1.7/problema_plano/graficas/ejemplo/Problema%20Plano%203D.png" height=150 alt="Grafica Tridimensional ejemplo" />
 El problema plano es un problema de valores de frontera, se buscar analizar el comportamiento de 
 los potenciales y flujos electricos de una linea o ducto de transmision que esta subdivida por 
 multiples regiones de diferentes materiales dielectricos, Se muestra la interaccion entre cada region
