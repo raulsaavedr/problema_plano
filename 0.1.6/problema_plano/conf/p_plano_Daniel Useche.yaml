@@ -1,0 +1,68 @@
+csv_filled:
+  artificio_potencial: true
+  coeficientes_no_cero_matriz_coeficientes: true
+  constantes_k: true
+  continuidad: true
+  fronteras: true
+  funciones_hiperbolicas: true
+  matrices_cuadradas_acoplamiento: true
+  matriz_coeficientes: true
+  regiones: true
+  vectores_distorsionadores: true
+  vectores_terminos_dependientes: true
+  vectores_transpuestos: true
+debugging:
+  __main__:
+    disabled: true
+    log_level: INFO
+  constantes_k:
+    disabled: true
+    log_level: INFO
+  distorsionador:
+    disabled: true
+    log_level: INFO
+  eigen:
+    disabled: true
+    log_level: INFO
+  fill_the_csv:
+    disabled: true
+    log_level: INFO
+  flujo:
+    disabled: true
+    log_level: INFO
+  frontera:
+    disabled: true
+    log_level: INFO
+  hiperbolica:
+    disabled: true
+    log_level: INFO
+  matrices_acoplamiento:
+    disabled: true
+    log_level: INFO
+  matriz_gauss:
+    disabled: true
+    log_level: INFO
+  parser_matriz_gauss:
+    disabled: true
+    log_level: INFO
+  potencial:
+    disabled: true
+    log_level: INFO
+  region:
+    disabled: true
+    log_level: INFO
+  v_transpuestos:
+    disabled: true
+    log_level: INFO
+env:
+  config_file: conf/p_plano_Daniel Useche.yaml
+  path: Daniel Useche
+vars:
+  delta: 10
+  n_constantes_k: 10
+  n_diagonales_hiperbolicas: 18
+  n_dimension: 100
+  n_dimension_matriz_gauss: 18
+  n_matrices_acopladoras: 10
+  n_regiones: 12
+  n_vectores_distorsionadores: 5

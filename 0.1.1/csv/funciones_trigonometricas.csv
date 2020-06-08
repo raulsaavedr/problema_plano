@@ -1,0 +1,9 @@
+chr_v_trig,chr_eigen,tipo,desplazamiento
+H,Pn,sin,2
+F,Qn,sin,0
+G,Qn,cos,0
+I,Rn,cos,0
+J,Wn,sin,1
+L,Zn,sin,2
+B,Tn,sin,3
+A,Un,cos,0

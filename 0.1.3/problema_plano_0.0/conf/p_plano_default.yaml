@@ -1,0 +1,63 @@
+csv_filled:
+  artificio_potencial: false
+  coeficientes_no_cero_matriz_coeficientes: true
+  constantes_k: true
+  funciones_hiperbolicas: true
+  matrices_cuadradas_acoplamiento: true
+  matriz_coeficientes: true
+  regiones: true
+  vectores_distorsionadores: false
+  vectores_terminos_dependientes: false
+  vectores_transpuestos: false
+  vectores_valores_dependientes: false
+debugging:
+  constantes_k:
+    log_level: INFO
+    disabled: true
+  distorsionador:
+    log_level: INFO
+    disabled: true
+  eigen:
+    log_level: INFO
+    disabled: true
+  fill_the_csv:
+    log_level: DEBUG
+    disabled: true
+  flujo:
+    log_level: INFO
+    disabled: true
+  hiperbolica:
+    log_level: INFO
+    disabled: true
+  __main__:
+    log_level: INFO
+    disabled: true
+  matrices_acoplamiento:
+    log_level: INFO
+    disabled: true
+  matriz_gauss:
+    log_level: INFO
+    disabled: true
+  parser_matriz_gauss:
+    log_level: INFO
+    disabled: true
+  potencial:
+    log_level: INFO
+    disabled: true
+  region:
+    log_level: INFO
+    disabled: true
+  v_transpuestos:
+    log_level: INFO
+    disabled: true
+env:
+  config_file: conf/p_plano_default.yaml
+  path: default
+vars:
+  delta: 10
+  n_constantes_k: 0
+  n_diagonales_hiperbolicas: 0
+  n_dimension: 100
+  n_dimension_matriz_gauss: 0
+  n_matrices_acopladoras: 0
+  n_regiones: 0

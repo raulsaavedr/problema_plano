@@ -1,0 +1,13 @@
+xi,xf,yi,yf,eps,chr_eigen,f_eigen,direcc_de_flujo
+0,4,0,1,E0,A,sin,subiendo
+0,4,1,2,E0,B,cos,ambos sentidos
+0,1,2,3,Er1,C,cos,ambos sentidos
+1,2,2,3,Er1,D,sin,subiendo
+2,3,2,3,Er1,E,sin,ambos sentidos
+3,4,2,3,Er1,F,sin,bajando
+0,2,3,4,E0,G,sin,ambos sentidos
+2,4,3,4,E0,H,cos,ambos sentidos
+0,3,4,5,Er1,I,sin,ambos sentidos
+3,4,4,6,Er1,F,sin,bajando
+0,2,5,6,Er1,G,sin,bajando
+2,3,5,6,Er1,E,sin,bajando

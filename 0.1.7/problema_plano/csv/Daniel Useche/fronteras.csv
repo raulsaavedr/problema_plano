@@ -1,0 +1,13 @@
+arriba,abajo,derecha,izquierda
+no,SIM,Cero,Uno
+Cero-1-2,no,Cero,SIM
+no,no,Cero,SIM
+no,Cero,Cero,Cero
+no,no,Cero,Cero
+Cero,no,Cero,Cero
+no,no,Cero,Uno
+Cero-2-3,Cero-3-4,SIM,Cero
+no,Cero-2-3,Cero,Uno
+SIM,no,Uno,Cero
+Uno,no,Uno,Uno
+SIM,no,Cero,Uno

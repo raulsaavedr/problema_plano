@@ -1,0 +1,16 @@
+chr_eigen,yi,yf,tipo,divisor
+Pn,0,1,tanh,1
+Qn,1,2,coth,2
+Qn,1,2,tanh,2
+Qn,2,3,tanh,2
+Qn,2,3,tanh,2
+Pn,3,4,coth,2
+Pn,3,4,tanh,2
+Qn,4,5,coth,2
+Qn,4,5,tanh,2
+Wn,5,6,coth,1
+Tn,5,6,tanh,2
+Tn,5,6,coth,2
+Rn,5,6,coth,1
+Un,6,7,tanh,1
+Zn,5,6,tanh,1

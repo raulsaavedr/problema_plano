@@ -1,0 +1,37 @@
+0   1   0
+1   0   1
+1   1   0
+
+1
+0   2
+0   1
+
+M(i,j): representa el costo de asignar la fila i de la matriz
+de entrada al elemento diagonal j(distancia promedio al 
+elemento diagonal)
+
+M(i,j) =
+1   0   1
+1   1   1
+1  0.5 1.5
+
+M(0,0) = 1 es la distancia promedio cuando se asigna la fila 0
+de la matriz de entrada (0   1   0) al elemento diagonal 
+posicionado en 0
+
+M(0,1) = 0 es la distancia promedio cuando se asigna la fila 0
+de la matriz de entrada (0   1   0) al elemento diagonal 
+posicionado en 1
+
+
+M(1,0) = 1 es la distancia promedio cuando se asigna la fila 1
+de la matriz de entrada (1   0   1) al elemento diagonal 
+posicionado en 0
+
+M(2,1) = 0.5 es la distancia promedio cuando se asigna la fila 2
+de la matriz de entrada (1   1   0) al elemento diagonal 
+posicionado en 1
+
+M(2,2) = 1.5 es la distancia promedio cuando se asigna la fila 2
+de la matriz de entrada (1   1   0) al elemento diagonal 
+posicionado en 2
