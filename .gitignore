@@ -1,1 +1,3 @@
-__pycache__
+# General things to ignore
+__pycache__/
+*.py[cod]
