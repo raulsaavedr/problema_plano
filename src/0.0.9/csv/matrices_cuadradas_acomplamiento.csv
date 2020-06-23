@@ -1,9 +1,0 @@
-xi,xf,tipo_1,chr_eigen_1,desp_1,tipo_2,chr_eigen_2,desp_2
-2,4,sin,P,2,sin,Q,0
-0,6,sin,Q,0,cos,Q,0
-2,4,sin,P,2,cos,Q,0
-1,2,sin,W,1,sin,Q,0
-3,5,sin,T,3,sin,Q,0
-0,1,cos,R,0,cos,U,0
-2,3,sin,Z,2,cos,U,0
-3,5,sin,T,3,cos,U,0
