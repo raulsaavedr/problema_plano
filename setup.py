@@ -24,10 +24,9 @@ setup(
         'Programming Language :: Python :: 3.8',
         'Programming Language :: Python :: 3 :: Only',
         "Operating System :: OS Independent",
-    ],    
+    ],
     python_requires='>=3.7',
     install_requires=[
         "numpy", "pandas", "scipy", "numba",
     ],
-    entry_points={"console_scripts": ["run=problema_plano.__main__:main"]},
 )

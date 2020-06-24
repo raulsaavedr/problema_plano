@@ -1,3 +1,4 @@
 # General things to ignore
 __pycache__/
+venv/
 *.py[cod]
