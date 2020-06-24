@@ -4,9 +4,8 @@
 El problema plano es un problema de valores de frontera, se buscar analizar el comportamiento de 
 los potenciales y flujos electricos de una linea o ducto de transmision que esta subdivida por 
 multiples regiones de diferentes materiales dielectricos, Se muestra la interaccion entre cada region
-tanto de los flujos como de los potenciales.Para mas informacion acerca del proyecto de radiofrecuencias 
-por favor visite la siguiente pagina:
-<img src="https://raw.githubusercontent.com/raulsaavedr/problema_plano/tree/problema_plano/graficas/ejemplo/Problema%20Plano%203D.png" height=640 alt="Grafica Tridimensional ejemplo" />
+tanto de los flujos como de los potenciales.
+<img src="https://raw.githubusercontent.com/raulsaavedr/problema_plano/master/problema_plano/graficas/ejemplo/Problema%20Plano%203D.png" height=640 alt="Grafica Tridimensional ejemplo" />
 
 ## Dependencias:
 * Python >= 3.7
