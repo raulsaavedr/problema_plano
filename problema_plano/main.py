@@ -1,4 +1,3 @@
-import sys
 import time
 init_time = time.time()
 

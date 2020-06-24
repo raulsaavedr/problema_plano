@@ -28,5 +28,6 @@ setup(
     python_requires='>=3.7',
     install_requires=[
         "numpy", "pandas", "scipy", "numba",
-    ]
+    ],
+    entry_points={"console_scripts": ["run=problema_plano.__main__:main"]},
 )
